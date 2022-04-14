@@ -19,14 +19,6 @@ Post.init(
       type: DataTypes.TEXT,
       allowNull: true,
     },
-    post_author: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    // post_comment: {
-    //     type: DataTypes.TEXT,
-    //     allowNull: true,
-    // },
     user_id: {
         type: DataTypes.INTEGER,
         references: {

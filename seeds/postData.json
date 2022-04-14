@@ -1,0 +1,17 @@
+[
+    {
+        "post_title": "JavaScript",
+        "post_content": "I love the versatility that javaScript provides me as a coder.",
+        "user_id": 1
+    },
+    {
+        "post_title": "Bootstrap",
+        "post_content": "Bootstrap has made my life better. I am able to create aesthetic webpages at a much qucker rate.",
+        "user_id": 2
+    },
+    {
+        "post_title": "Sequelize",
+        "post_content": "Having the ability to create and update SQL tables with javaScript is a huge asset. Hats off to the creators of this node package.",
+        "user_id": 1
+    }
+]

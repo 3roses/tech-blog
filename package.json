@@ -8,5 +8,8 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.18.0"
+  },
+  "scripts": {
+    "seed": "node seeds/seed.js"
   }
 }

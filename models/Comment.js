@@ -11,11 +11,11 @@ Comment.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    Comment_content: {
+    comment_content: {
       type: DataTypes.TEXT,
       allowNull: true,
     },
-    Comment_author: {
+    user_author: {
       type: DataTypes.STRING,
       allowNull: false,
     },

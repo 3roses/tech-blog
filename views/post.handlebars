@@ -2,9 +2,9 @@
   <h2>{{post_title}}</h2>
   {{!-- <p>{{{get_emoji}}}</p> --}}
   {{!-- <p>{{description}}</p> --}}
-  <p>Created by {{user.email}} on {{post.created_at}}</p>
+  <p>Created by {{user.email}} on {{created_at}}</p>
 
   <p>
-    <button class="btn btn-primary">Fund this Project!</button>
+    {{post_content}}
   </p>
 </div>
